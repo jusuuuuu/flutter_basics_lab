@@ -1,3 +1,22 @@
+https://github.com/jusuuuuu/flutter_basics_lab.git
+
+Last 3 build() lines from activity 2:
+build() called: 4 glasses
+build() called: 5 glasses
+build() called: 6 glasses
+
+Observations:
+Activity 2:
+When I tapped the + button, I noticed that the displayed number still increased and could go beyond the goal of 6. The counter did not stop at the goal as it did before the experiment.
+
+Activity 3:
+When I removed Expanded, I observed a change in the layout and how the stat boxes used the available space. I compared the result with the original layout that used Expanded.
+
+Activity 5:
+When I changed the button corner radius from 8 to 20, I noticed that the buttons became more rounded. The change was visible in the appearance of the buttons.
+
+
+Review Questions:
 1. What is the difference between a StatelessWidget and a StatefulWidget? Give one example of each from this lab.
 - A StatelessWidget is constant and never changes once it is displayed while a StatefulWidget can change while the app is running. An example for a StatelessWidget is from the activity 1 where the ProfileCard never changes while an example for a StatefulWidget is from the activity 2 where every click from the user changes what is displayed in the WaterTrackerPage.
 
